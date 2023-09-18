@@ -1,6 +1,6 @@
 <script>
 
-var DOWNLOAD_ROOT_PATH = '', filepath = location.href.match(/\?file=(.+)/);
+var DOWNLOAD_ROOT_PATH = 'https://cos.globalpartner.ai/apps/', filepath = location.href.match(/\?file=(.+)/);
 filepath = filepath ? (filepath[1] || '') : '';
 location.href = DOWNLOAD_ROOT_PATH + filepath;
 
